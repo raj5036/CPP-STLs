@@ -30,5 +30,12 @@ int main(){
 
 	cout<<"SIze of s2 "<<s2.size()<<endl;
 	set.clear();
+
+	//Looking for a element
+	int key=3;
+	if(s.find(3)==s.end())
+		cout<<"Key not present"<<endl;
+	else
+		cout<<"Key found"<<endl;
 	return 0;
 }
